@@ -4,6 +4,8 @@
 	"dependencies": {
 		"ntwitter": "> 0.0.1"
 	},
-	"bin": "./bin/tremor-cli.js",
+	"bin": {
+		"tremor": "./bin/tremor-cli.js"
+	},
 	"main": "./lib/tremor.js"
 }

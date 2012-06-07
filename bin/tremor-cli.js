@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-console.log("tremor-cli");
+
+var Tremor = require("../lib/tremor").Tremor;
+
+Tremor.start();
+

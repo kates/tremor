@@ -2,7 +2,8 @@
 	"name": "tremor",
 	"version": "0.0.1",
 	"dependencies": {
-		"ntwitter": "> 0.0.1"
+		"ntwitter": "*",
+    "oauth": "*"
 	},
 	"bin": {
 		"tremor": "./bin/tremor-cli.js"

@@ -3,7 +3,8 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"ntwitter": "*",
-    "oauth": "*"
+		"oauth": "*",
+		"growl": "*"
 	},
 	"bin": {
 		"tremor": "./bin/tremor-cli.js"
